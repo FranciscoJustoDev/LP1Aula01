@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argumentos", "Argumentos\Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposVarios", "TiposVarios\TiposVarios.csproj", "{0E31057A-7FE7-4641-903B-9CF538F0FBDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariasStrings", "VariasStrings\VariasStrings.csproj", "{7A0A4581-7669-44AD-A9C6-129E16AC842C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{0E31057A-7FE7-4641-903B-9CF538F0FBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E31057A-7FE7-4641-903B-9CF538F0FBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E31057A-7FE7-4641-903B-9CF538F0FBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0A4581-7669-44AD-A9C6-129E16AC842C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0A4581-7669-44AD-A9C6-129E16AC842C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0A4581-7669-44AD-A9C6-129E16AC842C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0A4581-7669-44AD-A9C6-129E16AC842C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
