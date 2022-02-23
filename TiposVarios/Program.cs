@@ -6,11 +6,11 @@ namespace Argumentos
     {
             static void Main(string[] args)
         {
-            int num1 = 10;
-            int num2 = 0b1010;
-            int num3 = 0xA;
+            char char1 = '\u261E';
+            char char2 = '\u261C';
+            char char3 = '\u231A';
 
-            Console.WriteLine(num1 + ", " + num2 + ", " + num3 + ".");
+            Console.WriteLine(char1 + " " + char2 + " " + char3);
         }
     }
 }
