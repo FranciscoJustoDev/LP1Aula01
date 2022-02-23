@@ -6,11 +6,10 @@ namespace Argumentos
     {
             static void Main(string[] args)
         {
-            float real1 = 1.20f;
-            double real2 = 2.05;
-            decimal real3 = 23;
+            bool check1 = true;
+            bool check2 = false;
 
-            Console.WriteLine(real1 + " " + real2 + " " + real3);
+            Console.WriteLine(check1 + ", " + check2);
         }
     }
 }
