@@ -6,14 +6,18 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
-            string first_name = "Francisco";
-            string last_name = "Justo";
-            int age = 23;
-            string display_age = $"Current age: {age}";
-            Console.WriteLine(first_name + " " + last_name);
-            Console.WriteLine(display_age);
-            Console.WriteLine(string.Format("{0} is {1}", first_name, age));
-            Console.WriteLine(@"Hello! My name is {0}", first_name + ".");
+            double xx = 0.12345;
+            int ii = 18;
+            
+            string xstr = $"{xx:f2}";
+            string xperc = $"{xx:p1}";
+            string ihex = $"{ii:x}";
+            string icurr = $"{ii:c}";
+            
+            Console.WriteLine(xstr);
+            Console.WriteLine(xperc);
+            Console.WriteLine(ihex);
+            Console.WriteLine(icurr);
         }
     }
 }
